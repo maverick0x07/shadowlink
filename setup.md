@@ -77,6 +77,10 @@ sudo su
 ## آموزش راه اندازی: ساخت اکانت
 با برقرار شدن تانل، کافیه وارد پنل مدیریت کاربری شده و اکانت با تنظیمات دلخواهتون بسازید:
 
+![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_client1.png)
+
+![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_client2.png)
+
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_client3.png)
 
 و تمام! حالا کافیه لینک یا QR Code اکانت ساخته شده رو برای شخصی که میخواید ارسال کنید:
