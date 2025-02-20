@@ -24,7 +24,7 @@ git clone https://github.com/maverick0x07/shadowlink.git
 
 حالا وارد فولدر server پروژه میشیم و اسکریپت رو اجرا میکنیم:
 ```bash
-sudo cd shadowlink/server && chmod +x shadowlink.sh && ./shadowlink.sh
+cd shadowlink/server && chmod +x shadowlink.sh && ./shadowlink.sh
 ```
 
 #### نکته: برای اجرای دستورات بالا احتیاج به دسترسی root داریم:
