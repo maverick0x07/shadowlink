@@ -58,8 +58,7 @@ sudo su
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/client_starlink_nic.png)
 
-در مرحله دوم باید کارت شبکه ای که برای "اینترنت ایران" هستش رو از لیست انتخاب 
-:کنید (در این مثال کارت شبکه "اینترنت ایران" من گزینه 10 هستش)
+در مرحله دوم باید کارت شبکه ای که برای "اینترنت ایران" هستش رو از لیست انتخاب کنید (در این مثال کارت شبکه "اینترنت ایران" من گزینه 10 هستش):
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/client_iran_nic.png)
 
