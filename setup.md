@@ -85,3 +85,5 @@ sudo su
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_client4.png)
 
 #### نکته: پیشنهاد میشه از پروتکل "shadowsocks" با رمزنگاری "CHACHA20_IETF_POLY1305" استفاده کنید تا بتونید از نرم افزار Outline برای اتصال راحت تر تو تمام پلتفرم ها متصل بشید
+
+برای ریست یا حذف پنل و تانل روی سرور ایران، کافیه مجددا فایل ```shadowlink.sh``` اجرا کرده و گزینه "Reset" یا "Uninstall" رو انتخاب کنید
