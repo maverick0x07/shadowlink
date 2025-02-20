@@ -1,2 +1,2 @@
 # shadowlink
-Link to the stars via shadows
+Let shadows be your bridge to the stars
