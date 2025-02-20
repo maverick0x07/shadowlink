@@ -179,8 +179,9 @@ while true; do
 			echo "${GREEN}Password${NC}: shadowlink021"
 			echo 
 			echo "${RED}Important Note: Please change the username, password, port, and web path for a safer approach${NC}" 
-            echo 
+            		echo 
 			echo "Please save the ${RED}UUID${NC} and pass it to the client (PC with the ${GOLD}STARLINK${NC}):"
+   			echo
 			echo "${RED}UUID${NC}= ${GREEN}$UUID${NC}"
 			echo
             break
@@ -220,6 +221,7 @@ while true; do
 					echo "${RED}Important Note: Please change the username, password, port, and web path for a safer approach${NC}" 
 					echo 
 					echo "Please save the ${RED}UUID${NC} and pass it to the client (PC with the ${GOLD}STARLINK${NC}):"
+     					echo
 					echo "${RED}UUID${NC}= ${GREEN}$UUID${NC}"
 					echo
 					break
