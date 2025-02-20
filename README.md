@@ -1,7 +1,7 @@
 
 # Shadowlink
 <div align="center">
-  Let shadows be your bridge to the stars
+  "Let shadows be your bridge to the stars"
 </div>
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/shadowlink.png)
@@ -13,3 +13,8 @@
 
 ## دیاگرام نحوه اتصال
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/diagram.png)
+
+## آموزش نصب
+#### نسخه وب:
+https://github.com/maverick0x07/shadowlink/blob/main/setup.md
+#### نسخه PDF:
