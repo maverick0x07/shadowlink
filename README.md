@@ -15,9 +15,10 @@
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/diagram.png)
 
 ## آموزش نصب
-#### نسخه وب:
+### نسخه وب:
 https://github.com/maverick0x07/shadowlink/blob/main/setup.md
-#### نسخه PDF:
+### نسخه PDF:
+https://github.com/maverick0x07/shadowlink/blob/main/setup.pdf
 
 ## نکات برای کاربران حرفه ای
 
