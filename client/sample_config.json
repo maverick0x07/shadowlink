@@ -1,0 +1,145 @@
+{
+  "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "burstObservatory": null,
+  "dns": null,
+  "fakedns": null,
+  "inbounds": [
+    {
+      "allocate": null,
+      "listen": "127.0.0.1",
+      "port": 62787,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "sniffing": null,
+      "streamSettings": null,
+      "tag": "api"
+    }
+  ],
+  "log": {
+    "access": "none",
+    "dnsLog": false,
+    "error": "./error.log",
+    "loglevel": "warning",
+    "maskAddress": ""
+  },
+  "observatory": null,
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "sendThrough": "iran_internet_ipv4",
+      "settings": {},
+      "tag": "iran_internet"
+    },
+    {
+      "protocol": "freedom",
+      "sendThrough": "starlink_ipv4",
+      "settings": {},
+      "tag": "starlink"
+    },
+    {
+      "protocol": "vless",
+      "sendThrough": "iran_internet_ipv4",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bridge_server",
+            "port": 7091,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "uuid"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "reverse_tunel"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "0": {
+        "statsUserDownlink": true,
+        "statsUserUplink": true
+      }
+    },
+    "system": {
+      "statsInboundDownlink": true,
+      "statsInboundUplink": true,
+      "statsOutboundDownlink": true,
+      "statsOutboundUplink": true
+    }
+  },
+  "reverse": {
+    "bridges": [
+      {
+        "domain": "reverse.xui",
+        "tag": "reverse-0"
+      }
+    ]
+  },
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "blocked",
+        "type": "field"
+      },
+      {
+        "outboundTag": "blocked",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      },
+      {
+        "domain": [
+          "full:reverse.xui"
+        ],
+        "inboundTag": [
+          "reverse-0"
+        ],
+        "outboundTag": "reverse_tunel",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "reverse-0"
+        ],
+        "outboundTag": "starlink",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {},
+  "transport": null
+}
