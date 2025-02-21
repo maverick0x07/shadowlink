@@ -20,6 +20,15 @@ https://github.com/maverick0x07/shadowlink/blob/main/setup.md
 ### نسخه PDF:
 https://github.com/maverick0x07/shadowlink/blob/main/setup.pdf
 
+## کمک به پروژه
+
+BTC: ```bc1qyg9k62wqx0vp64dzg0lt4hpkgyartwc4paa0xp```
+
+ETH: ```0x1712201C077Ea47b6B38E574498d16C88A3bDF5C```
+
+TON: ```UQCZqSvVyxc-_Yz0lQ4ZOv-1BkcwhvRDyjJyzmCCE9d3fdrN```
+
+USDT-TRC20: ```TYa8qPR2f4nFxke1tAzVzbQNTcuBGjr88R```
 ## نکات برای کاربران حرفه ای
 
 ### سرویس Systemd سرور
