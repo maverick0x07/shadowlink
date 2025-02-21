@@ -43,7 +43,7 @@ sudo su
 #### 2: توکن UUID که باید به بخش Client تحویل داده بشه
 
 ### نکته خیلی مهم:
-برای افزایش امنیت، حتما اطلاعات پنل شامل یوزرنیم، پسوورد، آدرس پورت و مسیر web رو از تنظیمات پنل تغییر بدید!
+برای افزایش امنیت، حتما اطلاعات پنل شامل یوزرنیم، پسورد، آدرس پورت و مسیر web رو از تنظیمات پنل تغییر بدید!
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_auth.png)
 
