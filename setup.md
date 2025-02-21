@@ -50,7 +50,7 @@ sudo su
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/panel_url.png)
 
 ## آموزش راه اندازی: کلاینت
-بعد اتصال دو اینترنت "استارلینک" و "ایران" پروژه رو روی کامپیوتر دانلود کرده، وارد فولدر client میشیم و فایل shadowlink.bat رو اجرا میکنیم:
+بعد از اتصال دو اینترنت "استارلینک" و "ایران"، پروژه رو روی کامپیوتر دانلود کرده، وارد فولدر client میشیم و فایل shadowlink.bat رو اجرا میکنیم:
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/client_script.png)
 
