@@ -54,7 +54,7 @@ sudo su
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/client_script.png)
 
-بعد از اجرا شدن، برنامه لیست کارت شبکه های موجود در کامپیوتر رو نمایش میده و در مرحله اول از ما میخواد که کارت شبکه ای که برای "اینترنت استارلینک" هست رو :انتخاب کنیم (در این مثال کارت شبکه "اینترنت استارلینک" من گزینه 1 هستش):
+بعد از اجرا شدن، برنامه لیست کارت شبکه های موجود در کامپیوتر رو نمایش میده و در مرحله اول از ما میخواد که کارت شبکه ای که برای "اینترنت استارلینک" هست رو انتخاب کنیم (در این مثال کارت شبکه "اینترنت استارلینک" من گزینه 1 هستش):
 
 ![App Screenshot](https://raw.githubusercontent.com/maverick0x07/shadowlink/refs/heads/main/pics/client_starlink_nic.png)
 
